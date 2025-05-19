@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/50ca88e8db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>To Do List</title>
+</head>
+
+<body class="bg-[#120722] flex ">
+    <div class="w-full mt-8 flex flex-col justify-center items-center">
+        <header class="w-[95%] xl:w-2/3">
+            <h1 id="header-title" class="text-[36px] font-bold text-center text-white">
+                ToDo App
+            </h1>
+            <div class="flex w-full my-5 items-center p-2 gap-2">
+                <input type="text" id="inputTask" placeholder="Add a task ..." class="flex flex-grow border border-[#2a0266] shadow-[0_2px_10px_rgba(219,39,119,0.2)] text-gray-500 p-2 rounded-lg pl-3
+            focus:outline-none transition-all duration-500 focus:border-[#9918d4]" />
+                <button id="addBtn" class="w-[95px] bg-transparent text-[#8e72b8] text-[18px] font-semibold border border-[#2a0266] shadow-[0_2px_6px_rgba(219,39,119,0.4)]
+             p-2 rounded-lg transition-all duration-500 hover:outline-none hover:border-[#9918d4]">
+                    Add Task
+                </button>
+            </div>
+        </header>
+        <section class="w-[95%] xl:w-2/3">
+            <ul id="to-do-list" class="*:p-4 *:mb-6 *:border *:rounded-lg">
+                <li class="to-do-item flex justify-between shadow-[0_-4px_6px_-1px_rgba(168,85,247,0.3),0_4px_6px_-1px_rgba(0,0,0,0.3)] *:text-white
+                transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-[0_0_15px_#d8b4fe]">
+                    <span class="icons text-[18px]">Dummy Text1</span>
+                    <div class="flex w-[90px] justify-between *:bg-black *:p-1.5 *:rounded-full">
+                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </li>
+                <li class="to-do-item flex justify-between *:text-white shadow-[0_-4px_6px_-1px_rgba(168,85,247,0.3),0_4px_6px_-1px_rgba(0,0,0,0.3)]
+                transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-[0_0_15px_#d8b4fe]">
+                    <span class="text-[18px]">Dummy Text2</span>
+                    <div class="icons flex w-[90px] justify-between *:bg-black *:p-1.5 *:rounded-full">
+                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </li>
+                <li class="to-do-item flex justify-between *:text-white shadow-[0_-4px_6px_-1px_rgba(168,85,247,0.3),0_4px_6px_-1px_rgba(0,0,0,0.3)]
+                transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-[0_0_15px_#d8b4fe]">
+                    <span class="text-[18px]">Dummy Text3</span>
+                    <div class="icons flex w-[90px] justify-between *:bg-black *:p-1.5 *:rounded-full">
+                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </li>
+                <li class="to-do-item flex justify-between *:text-white shadow-[0_-4px_6px_-1px_rgba(168,85,247,0.3),0_4px_6px_-1px_rgba(0,0,0,0.3)]
+                transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-[0_0_15px_#d8b4fe]">
+                    <span class="text-[18px]">Dummy Text4</span>
+                    <div class="icons flex w-[90px] justify-between *:bg-black *:p-1.5 *:rounded-full">
+                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </li>
+                <li class="to-do-item flex justify-between *:text-white shadow-[0_-4px_6px_-1px_rgba(168,85,247,0.3),0_4px_6px_-1px_rgba(0,0,0,0.3)]
+                transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-[0_0_15px_#d8b4fe]">
+                    <span class="text-[18px]">Dummy Text</span>
+                    <div class="icons flex w-[90px] justify-between *:bg-black *:p-1.5 *:rounded-full">
+                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
